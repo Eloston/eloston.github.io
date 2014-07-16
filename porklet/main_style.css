@@ -1,0 +1,61 @@
+/* Margins are annoying */
+
+div, span, p, h1, h2, h3, h4, h5, h6, a, button {
+margin: 0;
+}
+
+/* TODO: Change background */
+
+body {
+background-position:center top;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+/* Gradients: http://www.colorzilla.com/gradient-editor/ */
+
+/* Dialogue Boxes */
+
+#dialogue-box {
+}
+
+#dialogue-box-header {}
+
+#dialogue-box-content {
+overflow-y:auto;
+height:5em;
+}
+
+/* Choice Boxes */
+
+#choice-box {
+position:absolute;
+bottom:0.5em;
+min-width:90%;
+}
+
+#choice-box-content {
+overflow-y:auto;
+height:5em;
+}
+
+.box_common {
+border-radius:0.75em;
+padding:0.75em;
+
+opacity:0.9;
+filter:alpha(opacity=90); /* For IE8 and earlier */
+
+border-style:solid;
+border-color:white;
+border-width:0.25em;
+
+background: #499bea; /* Old browsers */
+background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #499bea 0%,#207ce5 100%); /* IE10+ */
+background: linear-gradient(to bottom, #499bea 0%,#207ce5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+}

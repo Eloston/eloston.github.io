@@ -1,0 +1,272 @@
+<!--
+<game>
+    <state type="dialogue_with_button">
+        <speaker>GNU</speaker>
+        <dialogue>Okay lolol this is cool\n<br />Hello World!<br />:D<br />This is really<br />fun<br />LOL</dialogue>
+    </state>
+
+    <state type="dialogue_no_button">
+        <speaker>Linux</speaker>
+        <dialogue>Hello world!</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>I am the correct answer!</choice>
+        <choice>LOL This is a test</choice>
+        <choice><strike>IKR!</strike></choice>
+        <choice>Wheeeeeee this text is typed out!!!</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_no_button">
+        <speaker>This is the end of the demo</speaker>
+        <dialogue>You just got a preview of <u>how the</u> <strike>user</strike> <i>interface</i> will <h1>function</h1></dialogue>
+    </state>
+</game>
+-->
+
+<game>
+    <state type="set_background">
+        <value>images/inside-windsor-castle.jpg</value>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker> </speaker>
+        <dialogue>Hello there!<br />It\'s so very nice to meet you!</dialogue>
+    </state>
+
+    <state type="set_background">
+        <value>http://www.w3schools.com/cssref/smiley.gif</value>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker> </speaker>
+        <dialogue>Welcome to the world of Pokemon!</dialogue>
+    </state>
+
+    <state type="set_background">
+        <value>images/inside-windsor-castle.jpg</value>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>My name is Rowan.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>However, everyone just calls me<br />the Pokemon Professor.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Before I go any further, is this<br />your first adventure?</dialogue>
+    </state>
+
+    <state type="dialogue_no_button">
+        <speaker>Rowan</speaker>
+        <dialogue>If you need advice, I\'m certainly<br />capable of giving it.</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>NO INFO NEEDED</choice>
+        <choice>ADVENTURE INFO</choice>
+        <choice>CONTROL INFO</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>This world is widely inhabited by<br />creatures known as Pokemon.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Here, I have a Poke Ball.</dialogue>
+    </state>
+
+    <state type="dialogue_no_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Touch the button on the middle of<br />the Poke Ball, if you\'d please.</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>(touch)</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>We humans live alongside Pokemon<br />as friends.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>At times we play together,<br />and at other times we<br />work together.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Some people use their Pokemon<br />to battle and develop<br />closer bonds with them.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>What do I do?</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>I conduct research so that we may<br />learn more about Pokemon.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Now, why don\'t you tell me><br />a little bit about yourself?</dialogue>
+    </state>
+
+    <state type="dialogue_no_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Are you a boy?<br />Or are you a girl?</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>(genderless)</choice>
+        <choice>BOY</choice>
+        <choice>GIRL</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_no_button">
+        <speaker>Rowan</speaker>
+        <dialogue>All right, so you\'re a genderless?</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>YES</choice>
+        <choice>NO</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_no_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Tell me, what is your name?</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>Nameless</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_no_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Your name is Nameless?</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>YES</choice>
+        <choice>NO</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>OK...<br />So, you\'re Nameless?</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>A fine name that is!</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Now, this boy here...<br />I believe he\'s your friend.</dialogue>
+    </state>
+
+    <state type="dialogue_no_button">
+        <speaker>Rowan</speaker>
+        <dialogue>What might his name be?</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>Nobody</choice>
+        <choice>Barry</choice>
+        <choice>Nolan</choice>
+        <choice>Roy</choice>
+        <choice>Gavin</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_no_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Nobody, is it?<br />That\'s your friend\'s name?</dialogue>
+    </state>
+
+    <state type="choice_box">
+        <choice>YES</choice>
+        <choice>NO</choice>
+    </state>
+
+    <state type="hide_choice_box"></state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>All right, Nameless, the time<br />has come.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Your very own tale of grand<br />adventure is about to unfold.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>On your journey, you will meet<br />countless Pokemon and people.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>I\'m sure that along the way you will<br />discovery many things, perhaps even<br />something about yourself.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>Rowan</speaker>
+        <dialogue>Now, go on, leap into the world of<br />Pokemon!</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker></speaker>
+        <dialogue>"Pokemon are by our side, always.<br />I hope you will understand the meaning<br />of those words."<br /><br />That was the comment left by Prof. Rowan,<br />who has returned to Sinnoh from the<br />Kanto region.</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>(Television)</speaker>
+        <dialogue>That concludes our special program,<br />"Let\'s ask Prof. Rowan!"</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>(Television)</speaker>
+        <dialogue>Brought to you by Javascript, HTML, CSS, and this Website on<br />the Internet!</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>(Television)</speaker>
+        <dialogue>See you next week, same TCP port,<br />same code!</dialogue>
+    </state>
+
+    <state type="dialogue_with_button">
+        <speaker>This is the end of the demo</speaker>
+        <dialogue>You just got a preview of <u>how the</u> <strike>user</strike> <i>interface</i> will <h1>function</h1></dialogue>
+    </state>
+    
+    <state type="complete_game"></state>
+</game>

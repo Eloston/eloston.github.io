@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Hamlet Creative Project: Game Started</title>
+        <link rel="stylesheet" type="text/css" href="main_style.css" />
+        <script type="text/javascript" src="main_script.js"></script>
+        <script type="text/javascript" src="TypingText.js"></script>
+        <script type="text/javascript" src="strings.js"></script>
+
+        <audio loop="loop" autoplay=true id="bgm-loop">
+            <source src="audio/Beethoven_SonataNo14_1stMovement.ogg" type="audio/ogg"></source>
+        </audio>
+
+        <audio id="wrong_choice">
+            <source src="audio/wrong_choice.ogg" type="audio/ogg"></source>
+        </audio>
+    </head>
+    <body>
+        <div id="dialogue-box" class="box_common" hidden="hidden">
+            <h4 id="dialogue-box-header"></h4>
+            <div id="dialogue-box-content"></div>
+        </div>
+        <div id="choice-box" class="box_common" hidden="hidden">
+            <h3>How should Hamlet respond?</h3>
+            <div id="choice-box-content"></div>
+        </div>
+    </body>
+</html>
